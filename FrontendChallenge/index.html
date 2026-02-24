@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Challenge - Music Service Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="registration-section">
+            <h1>Registrati al nostro servizio musicale</h1>
+            <form class="registration-form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Il tuo nome" required>
+
+                    <label for="surname">Cognome:</label>
+                    <input type="text" id="surname" name="surname" placeholder="Il tuo cognome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="La tua email" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Crea una password" required>
+
+                    <label for="data-nascita">Data di nascita:</label>
+                    <input type="date" id="data-nascita" name="data-nascita" required>
+
+                    <label for="numero-telefono">Numero di telefono:</label>
+                    <input type="number" id="numero-telefono" name="numero-telefono" placeholder="Numero di telefono" required>
+                    
+                    <label for="genere-musicale">Generi musicali preferiti:</label>
+                    <div id="genere-musicale">
+                    <label><input class="checkbox-genere" type="checkbox" name="genere-musicale" value="rock"> Rock</label>
+                    <label><input class="checkbox-genere" type="checkbox" name="genere-musicale" value="pop"> Pop</label>
+                    <label><input class="checkbox-genere" type="checkbox" name="genere-musicale" value="jazz"> Jazz</label>
+                    <label><input class="checkbox-genere" type="checkbox" name="genere-musicale" value="classica"> Classica</label>
+                    <label><input class="checkbox-genere" type="checkbox" name="genere-musicale" value="hip-hop"> Hip-Hop</label>
+                    <label><input class="checkbox-genere" type="checkbox" name="genere-musicale" value="electronic"> Electronic</label>
+                    </div>
+                    <div id="privacy-container">
+                        <label for="termini-condizioni">Accetto i termini e le condizioni</label>
+                        <input type="radio" id="termini-condizioni" name="termini-condizioni" required>
+                    </div>
+                    <button type="submit" onclick="alert('Registrazione inviata!')">Invia registrazione</button>
+                    
+                </form>
+        </section>
+</body>
+</html>
