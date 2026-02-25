@@ -67,6 +67,14 @@ input::placeholder {
     text-align: center;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #1e1e1e inset;
+  -webkit-text-fill-color: white;
+  -webkit-color: white;
+}
+
 button {
     background-color: rgb(54, 235, 54);
     color: rgb(0, 0, 0);
@@ -86,4 +94,8 @@ button:active {
 
 #privacy-container {
     margin: 10px 0;
+}
+
+.form-input {
+    width: 60%;
 }
