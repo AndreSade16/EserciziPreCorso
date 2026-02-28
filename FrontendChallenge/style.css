@@ -93,7 +93,7 @@ input::placeholder {
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
-  -webkit-box-shadow: 0 0 0 1000px #1e1e1e inset;
+  -webkit-box-shadow: 0 0 0 1000px rgb(54, 52, 52) inset;
   -webkit-text-fill-color: white;
   -webkit-color: white;
 }
