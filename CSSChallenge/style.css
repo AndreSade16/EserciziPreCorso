@@ -14,6 +14,74 @@ body {
     background-size: cover;
 }
 
+.val-camonica .image-container {
+    background-image: url(https://www.visitbrescia.it/wp-content/uploads/valle-camonica-estate-3-1024x684.jpg);
+}
+
+.val-camonica-h6 {
+    background: linear-gradient(180deg, #867f04, #cbfed0);
+}
+
+.val-camonica-li a:visited {
+            color: #867f04;
+}
+
+.santa-caterina .image-container {
+    background-image: url(https://santacaterina.it/wp-content/uploads/2019/11/inverno.jpg);
+}
+
+.santa-caterina-h6 {
+    background: linear-gradient(180deg, #313a30, #e3f2e5);
+}
+
+.santa-caterina-li a:visited {
+            color: #313a30;
+}
+
+.passo-del-tonale .image-container {
+    background-image: url(https://www.turismovallecamonica.it/wp-content/uploads/2023/12/Ponte-di-Legno-Passo-del-Tonale-ph.-Angela-Soldanescu.jpg);
+}
+
+.passo-del-tonale-h6 {
+    background: linear-gradient(180deg, #0f96bfd1, #ffffff);
+}
+
+.passo-del-tonale-li a:visited {
+            color: #0f96bfd1;
+}
+
+.livigno .image-container {
+    background-image: url(https://www.chaletlivigno.it/media/allegati/00/131/ci/images/inverno-livigno-c-1280x720-7.jpg);
+}
+
+.livigno-h6 {
+    background: linear-gradient(180deg, #5e4315, #b0c2b2);
+}
+
+.livigno-li a:visited {
+            color: #5e4315;
+}
+
+.ponte-di-legno .image-container {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6b/PONTE_DI_LEGNO_-_SULLO_SFONDO_IL_CASTELLACCIO_-_panoramio.jpg);
+}
+
+.bormio .image-container {
+    background-image: url(https://www.bormio.eu/bormio/Resized/I%20nostri%20luoghi/Bormio/Gallery/11404/image-thumb__11404__thumb1920/Bormio_panorama%20notturno_ph.%20Giacomo%20Meneghello.452098fd.jpg);
+}
+
+.bormio-h6 {
+    background: linear-gradient(180deg, #083c70, #f9f286);
+}
+
+.bormio-li a:visited {
+    color: #083c70;
+}
+
+
+
+
+
 h1 {
     font-family: "Prata", serif;
     font-weight: 400;
