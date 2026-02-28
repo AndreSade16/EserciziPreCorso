@@ -92,10 +92,15 @@ input::placeholder {
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
-input:-webkit-autofill:focus {
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 1000px rgb(54, 52, 52) inset;
   -webkit-text-fill-color: white;
   -webkit-color: white;
+  -webkit-text-stroke-color: white;
+   /* Confesso di essermi fatto spiegare dall'IA come evitare di far cambiare il colore del testo (solo ogni tanto) dal browser quando si autofilla un input.
+   Non ho avuto molto successo :/
+   Non vogliatemene */
 }
 
 button {
