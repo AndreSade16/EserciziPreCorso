@@ -13,7 +13,8 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px 0;
 }
 
 section {
@@ -31,7 +32,8 @@ h1 {
     font-style: normal;
     font-size: 3rem;
     text-align: center;
-    margin: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 form {
@@ -54,6 +56,19 @@ input {
     color: white;
     padding: 5px;
     text-align: center;
+}
+
+#genere-musicale {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(54, 52, 52);
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 50%;
+    gap: 8px;
 }
 
 input:focus {
@@ -98,4 +113,32 @@ button:active {
 
 .form-input {
     width: 60%;
+}
+
+@media (orientation: landscape) {
+  form {
+    width: 80%;
+  }
+
+  .form-input {
+    width: 80%;
+    font-size: 1.5em;
+  }
+
+  label {
+    font-size: 1.5em;
+  }
+
+  #genere-musicale {
+    width: 80%;
+    gap: 15px;
+    font-size: 1em;
+  }
+
+  .checkbox-genere {
+    transform: scale(1.5);
+    margin-right: 8px;
+  }
+
+
 }
